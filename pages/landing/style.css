@@ -23,6 +23,7 @@ a {
     align-items: center;
     height: 80px;
     padding: 0 200px;
+    max-width: 1160px;
 }
 
 .navList {
@@ -44,10 +45,6 @@ a {
     margin: 10px 20px 10px 20px;
 }
 
-.navItem:hover, .navDesign:hover, .active {
-    color: #F9804B;
-}
-
 .main {
     flex-grow: 1;
     display: flex;
@@ -61,7 +58,7 @@ a {
 
 .watchWrap {
     margin: 0 auto;
-    max-width: var(--desktop-width);
+    max-width: 1600px;
     height: 700px;
     background-image: url("/assets/images/Giant\ Panda.png");
     background-repeat: no-repeat;
@@ -121,6 +118,7 @@ a {
     align-items: center;
     justify-content: center;
     color: white;
+    cursor: pointer;
 }
 
 .backstage {
@@ -153,13 +151,395 @@ a {
 }
 
 .backstageWrap::after {
+    content: "";
     background: url(/assets/images/flower_foto1.png);
     position: absolute;
     z-index: -1;
     background-repeat: no-repeat;
-    bottom: 0;
-    right: 0;
+    bottom: -70px;
+    right: -100px;
     width: 293px;
     height: 605px;
 }
 
+.animalWrap {
+    background: url(/assets/images/palm_foto.png) left bottom no-repeat, url(/assets/images/strelitzia\ 1.png) right bottom no-repeat;
+    padding: 0 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1600px;
+}
+
+.animalList {
+    display: grid;
+    max-width: 1160px;
+    grid-template-columns: 366px 366px 366px;
+    list-style-type: none;
+    gap: 20px 30px;
+    padding: 0;
+    margin: 0 auto 80px;
+}
+
+.animalCard {
+    border: solid 1px #FE9013;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 366px;
+}
+
+.animalTitle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.animalDesc {
+    margin: 10px;
+}
+
+.animalDesc h2, p{
+    margin: 0;
+    padding: 0;
+}
+
+.animalTitle img{
+    margin: 10px;
+}
+
+.animalCard:hover {
+    position: relative;
+    transform: scale(107%);
+    border: none;
+}
+
+.animalCard:hover .animalTitle{
+    top: -73px;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.7;
+    width: 365px;
+    color: white;
+}
+
+.smallButton {
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.leftButton {
+    background: url(/assets/icons/Vectorarrow\ left.png);
+    background-color: #F9804B;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 80px;
+    top: 2300px;
+    position: absolute;
+}
+
+.rightButton {
+    background: url(/assets/icons/Vectorarrow\ right.png);
+    background-color: #F9804B;
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 80px;
+    top: 2300px;
+    position: absolute;
+}
+
+.smallButton:hover, .button:hover {
+    background-color: #e07343;
+}
+
+.smallButton:active, .button:active {
+    background-color: #4B9200;
+}
+
+.donate {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#FEBDAB, #FED290);
+}
+
+.donateWrap {
+    background: #FDE7D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px 90px;
+    color: #333B41;
+    border-radius: 25px;
+    max-width: 1160px;
+    text-align: center;
+}
+
+.donatep1, .donatep2, .donatep3 {
+    text-align: left;
+} 
+
+.donateWrap h2{
+    color: #FE9013;
+    font-size: 48px;
+    text-align: center;
+}
+
+.donateWrap a {
+    border-bottom: 1px solid #FE9013;
+}
+
+.donatep1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.donatep2{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.donatep3{
+    font-size: 16px;
+}
+
+.donateWrap h3{
+    font-size: 36px;
+}
+
+.donateList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 80px;
+    list-style-type: none;
+}
+
+.donateItem {
+    position: relative;
+    padding-top: 200px;
+    width: 168px;
+}
+
+.donateItem::before {
+    position: absolute;
+    content: "";
+    width: 168px;
+    height: 168px;
+    top: 0;
+    left: 0;
+    border: #FE9013 solid 1px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.itemCard::before {
+    background: url(/assets/icons/paycard\ pay.png) no-repeat center;
+    background-color: white;
+}
+
+.itemPay::before {
+    background: url(/assets/icons/zoohand\ money.png) no-repeat center;
+    background-color: white;
+}
+
+.itemMonkey::before {
+    background: url(/assets/icons/monkeymonkey\ pay.png) no-repeat center;
+    background-color: white;
+}
+
+.itemCard::after {
+    position: absolute;
+    content: "";
+    background: url(/assets/icons/Vector.png) no-repeat center;
+    width: 70px;
+    height: 36px;
+    top: 68px;
+    left: 250px;
+}
+
+.itemPay::after {
+    position: absolute;
+    content: "";
+    background: url(/assets/icons/Vector.png) no-repeat center;
+    width: 70px;
+    height: 36px;
+    top: 68px;
+    left: 250px;
+}
+
+.feed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: url(/assets/images/leav_foto.png) no-repeat bottom right;
+    padding: 180px;
+}
+
+.reviewWrap h3{
+    font-size: 36px;
+}
+
+.reviewArticles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.borderWraper {
+    background: linear-gradient(#E3E3F5, #FDC0B0);
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 0 15px;
+    padding: 3px;
+}
+
+.article {
+    background: #f1f3f2;
+    border-radius: 20px;
+    padding: 5px;
+    color: #767474;
+}
+
+.articleTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.userName {
+    margin-bottom: 5px;
+}
+
+.userName h4 {
+    margin: 2px 2px 10px 2px;
+    color: #333B41;
+}
+
+.after::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background: #767474;
+}
+
+.rangeSlider {
+    width: 500px;
+}
+
+.testimonials button {
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.footer {
+    background: black;
+    color: white;
+}
+
+.footerWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+
+.socialList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footerLogo, .donateButton, .socialLinks {
+    margin: 20px;
+}
+
+.socialItem {
+    margin: 10px;
+}
+
+.footerNav {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.footerList {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.navItem:hover, .navDesign:hover, .active, .footerItem:hover {
+    color: #F9804B;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 50px 0 0;
+}
+
+.copyright { 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 150px;
+}
+
+.copyright a {
+    display: block;
+    text-decoration: none;
+    color: #ABABAB;
+}
+
+.subForm p {
+    font-size: 24px;
+}
+
+.subForm input {
+    background: black;
+    color: white;
+    padding: 15px;
+    border: solid 1px #FE9013;
+    border-radius: 2px;
+}
+
+.subForm input:focus {
+    outline: none;
+}
+
+.subForm input:active {
+    border: #4B9200 1px solid;
+}
+
+.subForm button {
+    height: 50px;
+    width: 100px;
+    border: #d31414 solid 1px;
+    color: #d31414;
+    border-radius: 5px;
+}
+
+.copyright a {
+    margin: 5px 0;
+}
+
+.copyright a:hover {
+    text-decoration: underline;
+}
