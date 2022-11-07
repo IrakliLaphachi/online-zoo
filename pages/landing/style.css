@@ -132,6 +132,7 @@ a {
 .backstage {
     min-height: 723px;
     padding-top: 140px;
+    background: url(../../assets/images/flowerFoto1.png) no-repeat right;
 }
 
 .backstageWrap {
@@ -155,18 +156,6 @@ a {
 .backstageText {
     font-size: 20px;
     color: #333B41;
-}
-
-.backstageWrap::after {
-    content: "";
-    background: url(../../assets/images/flowerFoto1.png);
-    position: absolute;
-    z-index: -1;
-    background-repeat: no-repeat;
-    bottom: -70px;
-    right: -90px;
-    width: 293px;
-    height: 605px;
 }
 
 .animalWrap {
@@ -580,4 +569,8 @@ a {
 
 .copyright a:hover {
     text-decoration: underline;
+}
+
+.hidden {
+    display: none;
 }
