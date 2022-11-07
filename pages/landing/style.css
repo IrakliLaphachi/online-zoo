@@ -1,3 +1,11 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -124,7 +132,6 @@ a {
 .backstage {
     min-height: 723px;
     padding-top: 140px;
-    padding-bottom: 180px;
 }
 
 .backstageWrap {
@@ -157,7 +164,7 @@ a {
     z-index: -1;
     background-repeat: no-repeat;
     bottom: -70px;
-    right: -100px;
+    right: -90px;
     width: 293px;
     height: 605px;
 }
