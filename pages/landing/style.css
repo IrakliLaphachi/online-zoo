@@ -562,12 +562,16 @@ a {
     border: #4B9200 1px solid;
 }
 
-.subForm button {
+.submitButton {
     height: 50px;
     width: 100px;
     border: #d31414 solid 1px;
     color: #d31414;
     border-radius: 5px;
+}
+
+.submitButton:hover {
+    cursor: pointer;
 }
 
 .copyright a {
