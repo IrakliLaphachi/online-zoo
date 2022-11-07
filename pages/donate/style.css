@@ -54,7 +54,7 @@ main {
 }
 
 .photo {
-    background: url(../../assets/images/GiantPanda.png) center;
+    background-image: url(../../assets/images/GiantPanda.png) center;
     height: 390px;
     margin: 0;
 }
