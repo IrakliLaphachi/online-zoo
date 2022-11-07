@@ -330,12 +330,21 @@ input[type=number] {
     border: #4B9200 1px solid;
 }
 
+.subForm input:active .subForm button{
+    border: #D31414 solid 1px;
+    color: #D31414;
+}
+
 .subForm button {
     height: 50px;
     width: 100px;
-    border: #d31414 solid 1px;
-    color: #d31414;
+    border: #333B41 solid 1px;
+    color: #333B41;
     border-radius: 5px;
+}
+
+.subForm button:hover {
+    cursor: pointer;
 }
 
 .copyright a {
@@ -359,4 +368,16 @@ input[type=number] {
     justify-content: center;
     color: white;
     cursor: pointer;
+}
+
+.button:hover {
+    background-color: #e07343;
+}
+
+.button:active {
+    background-color: #4B9200;
+}
+
+.hidden {
+    display: none;
 }
