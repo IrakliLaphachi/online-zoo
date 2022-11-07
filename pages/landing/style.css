@@ -60,7 +60,7 @@ a {
     margin: 0 auto;
     max-width: 1600px;
     height: 700px;
-    background-image: url("online-zoo/assets/images/Giant\ Panda.png");
+    background-image: url("IrakliLaphachi/online-zoo/assets/images/Giant\ Panda.png");
     background-repeat: no-repeat;
     background-position: center -80px;
     background-size: cover;
@@ -152,7 +152,7 @@ a {
 
 .backstageWrap::after {
     content: "";
-    background: url(online-zoo/assets/images/flower_foto1.png);
+    background: url(IrakliLaphachi/online-zoo/assets/images/flower_foto1.png);
     position: absolute;
     z-index: -1;
     background-repeat: no-repeat;
@@ -163,7 +163,7 @@ a {
 }
 
 .animalWrap {
-    background: url(online-zoo/assets/images/palm_foto.png) left bottom no-repeat, url(online-zoo/assets/images/strelitzia\ 1.png) right bottom no-repeat;
+    background: url(IrakliLaphachi/online-zoo/assets/images/palm_foto.png) left bottom no-repeat, url(IrakliLaphachi/online-zoo/assets/images/strelitzia\ 1.png) right bottom no-repeat;
     padding: 0 0 80px 0;
     display: flex;
     flex-direction: column;
@@ -233,7 +233,7 @@ a {
 }
 
 .leftButton {
-    background: url(online-zoo/assets/icons/Vectorarrow\ left.png);
+    background: url(IrakliLaphachi/online-zoo/assets/icons/Vectorarrow\ left.png);
     background-color: #F9804B;
     background-repeat: no-repeat;
     background-position: center;
@@ -243,7 +243,7 @@ a {
 }
 
 .rightButton {
-    background: url(online-zoo/assets/icons/Vectorarrow\ right.png);
+    background: url(IrakliLaphachi/online-zoo/assets/icons/Vectorarrow\ right.png);
     background-color: #F9804B;
     background-repeat: no-repeat;
     background-position: center;
@@ -339,24 +339,24 @@ a {
 }
 
 .itemCard::before {
-    background: url(online-zoo/assets/icons/paycard\ pay.png) no-repeat center;
+    background: url(IrakliLaphachi/online-zoo/assets/icons/paycard\ pay.png) no-repeat center;
     background-color: white;
 }
 
 .itemPay::before {
-    background: url(online-zoo/assets/icons/zoohand\ money.png) no-repeat center;
+    background: url(IrakliLaphachi/online-zoo/assets/icons/zoohand\ money.png) no-repeat center;
     background-color: white;
 }
 
 .itemMonkey::before {
-    background: url(online-zoo/assets/icons/monkeymonkey\ pay.png) no-repeat center;
+    background: url(IrakliLaphachi/online-zoo/assets/icons/monkeymonkey\ pay.png) no-repeat center;
     background-color: white;
 }
 
 .itemCard::after {
     position: absolute;
     content: "";
-    background: url(online-zoo/assets/icons/Vector.png) no-repeat center;
+    background: url(IrakliLaphachi/online-zoo/assets/icons/Vector.png) no-repeat center;
     width: 70px;
     height: 36px;
     top: 68px;
@@ -366,7 +366,7 @@ a {
 .itemPay::after {
     position: absolute;
     content: "";
-    background: url(online-zoo/assets/icons/Vector.png) no-repeat center;
+    background: url(IrakliLaphachi/online-zoo/assets/icons/Vector.png) no-repeat center;
     width: 70px;
     height: 36px;
     top: 68px;
@@ -384,7 +384,7 @@ a {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background: url(online-zoo/assets/images/leav_foto.png) no-repeat bottom right;
+    background: url(IrakliLaphachi/online-zoo/assets/images/leav_foto.png) no-repeat bottom right;
     padding: 180px;
 }
 
