@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>Document</title>
+</head>
+<body>
+    <div class="body"></div>
+    <header class="header">
+        <a class="siteLogo" href="index.html">
+            <img src="/assets/icons/logo.png" alt="petsroty logo">
+        </a>
+        <nav class="headerNav">
+            <ul class="navList">
+                <li class="navItem"><a href="/pages/landing/index.html">About</a></li>
+                <li class="navItem"><a href="#">Map</a></li>
+                <li class="navItem"><a href="#">Zoos</a></li>
+                <li class="navItem"><a class="active" href="/pages/donate/donate.html">Donate</a></li>
+                <li class="navItem"><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <a class="navDesign" href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks">Designed by ©</a>
+    </header>
+    <main>
+        <section class="photo"></section>
+        <section class="donate">
+            <div class="donateWrap">
+                <div class="donateText">
+                    <h3 class="title">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
+                    <p class="p1">Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public and private events cancelled or postponed for additional months. We need you now more than ever to help ensure that we overcome these challenges. We have been actively raising funds in the community, and we are grateful for the generosity.  But much more support is still needed, and we need your help! Please consider a gift today – no matter what size – to help us sustain our mission.</p>
+                    <h3 class="subtitle">Donation Information</h3>
+                </div>
+                <div class="donateWindow">
+                    <h2 class="donateTitle">Pick and feed a friend</h2>
+                    <p class="p2">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+                    <div class="panda">
+                        <div class="diet">
+                            <p class="dietNumber">4</p>
+                            <p class="dietText">Panda diet for the day.</p>
+                        </div>
+                        <p class="x">x</p>
+                        <img src="/assets/icons/panda_widget1.png" alt="panda icon">
+                    </div>
+                    <div class="amount">
+                        <p>Amount</p>
+                        <div class="amountRange">
+                            <form class="amountForm" action="#">
+                                <button class="amountButton"></button>
+                            </form>
+                            <form class="amountForm" action="#">
+                                <button class="amountButton"></button>
+                            </form>
+                            <form class="amountForm" action="#">
+                                <button class="amountButton"></button>
+                            </form>
+                            <form class="amountForm" action="#">
+                                <button class="amountButton"></button>
+                            </form>
+                            <form class="amountForm" action="#">
+                                <button class="amountButton"></button>
+                            </form>
+                            <form class="amountForm" action="#">
+                                <button class="amountButton"></button>
+                            </form>
+                            <form class="amountForm" action="#">
+                                <button class="amountButton"></button>
+                            </form>
+                            <form class="amountForm" action="#">
+                                <button class="amountButton"></button>
+                            </form>
+                        </div>
+                        <div class="amountNumbers">
+                            <p class="number1">$5000</p>
+                            <p class="number2">$2000</p>
+                            <p class="number3">$1000</p>
+                            <p class="number4">$500</p>
+                            <p class="number5">$250</p>
+                            <p class="number6">$100</p>
+                            <p class="number7">$50</p>
+                            <p class="number8">$25</p>
+                        </div>
+                    </div>
+                    <input class="amountCustom" type="number" placeholder="Another amount" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="4">
+                    <div class="radioButtons">
+                        <form class="time">
+                            <input type="radio" name="times" id="montly" value="Montly">
+                            <label for="monthly">Monthly</label>
+                            <input type="radio" name="times" id="Once" value="Once">
+                            <label for="Once">Once</label>
+                        </form>
+                    </div>
+                    <form class="feed" action="/pages/donate/donate.html">
+                        <button class="button">FEED A FRIEND NOW</button>
+                    </form>
+                    <p class="p3">Share with your friends on social networks</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footerWrap">
+            <div class="socials">
+                <div class="footerLogo">
+                    <img src="/assets/icons/logo.png" alt="PetStory Logo">
+                </div>
+                <form class="donateButton" action="/pages/donate/donate.html">
+                    <button class="button">DONATE FOR VOLUNTEERS</button>
+                </form>
+                <div class="socialLinks">
+                    <ul class="socialList">
+                        <li class="socialItem">
+                            <a href="https://www.facebook.com/">
+                                <img src="/assets/icons/facebook.png" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="socialItem">
+                            <a href="https://twitter.com">
+                                <img src="/assets/icons/twitter.png" alt="twitter">
+                            </a>
+                        </li>
+                        <li class="socialItem">
+                            <a href="https://www.instagram.com/">
+                                <img src="/assets/icons/instagram.png" alt="instagram">
+                            </a>
+                        </li>
+                        <li class="socialItem">
+                            <a href="https://www.youtube.com/">
+                                <img src="/assets/icons/youtube.png" alt="youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerNav">
+                <ul class="footerList">
+                    <li class="footerItem"><a href="/pages/landing/index.html">About</a></li>
+                    <li class="footerItem"><a href="#">Map</a></li>
+                    <li class="footerItem"><a href="#">Zoos</a></li>
+                    <li class="footerItem"><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="subscribe">
+                <div class="submit">
+                    <form class="subForm" action="#">
+                        <p>Subscribe to our news</p>
+                        <input id="email" type="email" placeholder="Enter you email" required="">
+                        <button class="submitButton" type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="copyright">
+                    <a class="footerLink" href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks">Designed by Alisa Samborskaya</a>
+                    <a class="footerLink" href="https://rs.school/js/">©RSSchool & ©Yem Digital 2021</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

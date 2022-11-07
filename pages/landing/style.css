@@ -438,7 +438,34 @@ a {
 }
 
 .rangeSlider {
-    width: 500px;
+    width: 600px;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+    border: #FE9013 solid 1px;
+    background-color: white;
+    border-radius: 5px;
+    height: 8px;
+}
+
+.rangeSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 6px;
+    width: 100px;
+    border-radius: 5px;
+    background: #FE9013;
+    cursor: pointer;
+}
+
+.rangeSlider::-moz-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 6px;
+    width: 100px;
+    border-radius: 5px;
+    background: #FE9013;
+    cursor: pointer;
 }
 
 .testimonials button {
