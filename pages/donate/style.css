@@ -154,6 +154,14 @@ main {
     cursor: pointer;
 }
 
+.amountButton:hover {
+    background-color: #FE9013;
+}
+
+.amountButton:active {
+    background-color: #4B9200;
+}
+
 .amountNumbers {
     display: flex;
     flex-direction: row;
@@ -271,6 +279,15 @@ input[type=number] {
 
 .socialItem {
     margin: 10px;
+    width: 120px;
+}
+
+.socialItem:hover {
+    box-shadow: 0px 0px 2px 0px #FFF;
+}
+
+.socialItem:active {
+    box-shadow: 0px 0px 2px 0px #4B9200;
 }
 
 .footerNav {
