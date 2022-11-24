@@ -496,10 +496,11 @@ a {
 }
 
 .socialItem:hover {
-    box-shadow: 0px 0px 2px 0px #FFF;
+    margin-left: 20px;
 }
 
 .socialItem:active {
+    margin-left: 20px;
     box-shadow: 0px 0px 2px 0px #4B9200;
 }
 

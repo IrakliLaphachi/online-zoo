@@ -283,11 +283,12 @@ input[type=number] {
 }
 
 .socialItem:hover {
-    box-shadow: 0px 0px 2px 0px #FFF;
+    margin-left: 20px;
 }
 
 .socialItem:active {
     box-shadow: 0px 0px 2px 0px #4B9200;
+    margin-left: 20px;
 }
 
 .footerNav {
@@ -362,6 +363,13 @@ input[type=number] {
 
 .subForm button:hover {
     cursor: pointer;
+    background-color: #FE9013;
+}
+
+.subForm button:active {
+    border: #4B9200 solid 1px;
+    color: #4B9200;
+    background-color: white;
 }
 
 .copyright a {
